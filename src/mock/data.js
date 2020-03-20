@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `I'm a professional and passionate Software Engineer focused on efficiency and constant learning.`,
   paragraphTwo:
-    'I have experience working in large financial and manufacturing enterprises with modernizing legacy applications. Looking to further my skills and become a full stack developer using Javascript frameworks like React.js, Node.js, and Java.',
+    'I have experience working in large financial and manufacturing enterprises with modernizing legacy applications. Looking to further my skills and become a Full Stack Developer using Java and Javascript frameworks like React.js and Node.js.',
   paragraphThree:
     'I would love to set up an introduction call to discuss how I could help your business and make your goals happen.',
   resume: 'https://gitconnected.com/njjeske/resume', // if no resume, the button will not show up
@@ -34,7 +34,8 @@ export const projectsData = [
     title: 'Senior Design Project',
     info:
       'Created and collaborated with classmates and professionals from Northwestern Mutual to design and implement a portfolio builder application.',
-    info2: 'I learned new technologies like Spring Boot (Java), React.js, MySQL, and AWS.',
+    info2:
+      'I learned new technologies like Java (Spring-Boot), Javascript (React.js), MySQL, and AWS.',
     repo: '',
     url: 'https://github.com/NJJeske/UWM-Capstone-Project-Frontend', // if no repo, the button will not show up
   },
