@@ -30,15 +30,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'UWM.jpg',
-    title: 'Senior Design Project',
+    img: 'webstore.jpg',
+    title: 'Ecommerce-Website (Work in Progress)',
     info:
-      'Created and collaborated with classmates and professionals from Northwestern Mutual to design and implement a portfolio builder application.',
+      'A standard Ecommerce Website that allows users to sign in / sign up, add shop items, checkout items, etc.',
     info2:
-      'I learned new technologies like Java (Spring-Boot), Javascript (React.js), MySQL, and AWS.',
+      'A project to improved my skillset by using technologies like React, Redux, Google Firebase, and more!',
     repo: '',
-    url: 'https://github.com/NJJeske/UWM-Capstone-Project-Frontend', // if no repo, the button will not show up
+    url: 'https://github.com/NJJeske/Ecommerce-Website', // if no repo, the button will not show up
   },
+
   {
     id: uuidv1(),
     img: 'FRAProject.jpg',
@@ -58,6 +59,17 @@ export const projectsData = [
     info2: `React / Redux web development project. This website uses an API called Robohash for the robot images, and fetches JSON to structure the robot names and emails.The website is deployed through Github Pages.`,
     repo: 'https://njjeske.github.io/robofriends/',
     url: 'https://github.com/NJJeske/robofriends', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'UWM.jpg',
+    title: 'Senior Design Project',
+    info:
+      'Created and collaborated with classmates and professionals from Northwestern Mutual to design and implement a portfolio builder application.',
+    info2:
+      'I learned new technologies like Java (Spring-Boot), Javascript (React.js), MySQL, and AWS.',
+    repo: '',
+    url: 'https://github.com/NJJeske/UWM-Capstone-Project-Frontend', // if no repo, the button will not show up
   },
 ];
 
