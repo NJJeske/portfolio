@@ -53,12 +53,12 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: 'Robofriends',
+    title: 'Move List Website',
     info:
-      'A simple project that displays and searches robots with a scrollbar. The searchbar will filter the names of the robots depending on their username.',
-    info2: `React / Redux web development project. This website uses an API called Robohash for the robot images, and fetches JSON to structure the robot names and emails.The website is deployed through Github Pages.`,
-    repo: 'https://njjeske.github.io/robofriends/',
-    url: 'https://github.com/NJJeske/robofriends', // if no repo, the button will not show up
+      'A simple project that displays and searches top rated movies with a scrollbar. The searchbar will filter the names of the movies depending on their title.',
+    info2: `React web development project. This website uses an API called The Movie Database API to fetch a JSON object with the following info (movie images, title, and popularity).The website is deployed through Netlify.`,
+    repo: 'https://movie-list-website.netlify.app/',
+    url: 'https://github.com/NJJeske/movielist-website', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
